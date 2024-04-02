@@ -29,5 +29,4 @@ noBtn.addEventListener('mouseover', () => {
 
 noBtn.addEventListener('click', () => {
     noBtn.textContent = "OO";
-    noBtn.disabled = true;
 });
