@@ -30,7 +30,3 @@ noBtn.addEventListener('mouseover', () => {
 noBtn.addEventListener('click', () => {
     noBtn.textContent = "OO";
 });
-
-document.querySelectorAll('.btn-group button').forEach(function(btn) {
-    btn.classList.add('hidden');
-  });

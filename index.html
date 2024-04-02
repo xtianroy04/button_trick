@@ -5,6 +5,7 @@
     <title>Unclickable Button </title>
     <link rel="stylesheet" href="style.css">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
 </head>
 <body>
     <div class="wrapper">
@@ -18,3 +19,8 @@
     <script src="script.js"></script>
 </body>
 </html>
+<script>
+    document.querySelectorAll('.btn-group button').forEach(function(btn) {
+    btn.classList.add('hidden');
+  });
+</script>
