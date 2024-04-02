@@ -10,7 +10,7 @@ yesBtn.addEventListener('click', () => {
     Swal.fire({
         title: "",
         text: "Aratttt naaaaa!!!!!!!!.",
-        imageUrl: "eat.jpg",
+        imageUrl: "burger.webp",
         imageWidth: 400,
         imageHeight: 200,
         imageAlt: "Custom image"
