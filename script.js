@@ -27,5 +27,5 @@ noBtn.addEventListener('mouseover', () => {
 });
 
 noBtn.addEventListener('click', () => {
-    question.textContent = "OO";
+    noBtn.textContent = "OO";
 });
