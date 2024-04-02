@@ -24,6 +24,7 @@ noBtn.addEventListener('mouseover', () => {
 
     noBtn.style.left = i + 'px';
     noBtn.style.top = j + 'px';
+    
 });
 
 noBtn.addEventListener('click', () => {
